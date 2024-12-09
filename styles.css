@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+
+
+    body {
+        color: rgb(35, 0, 82);
+    }
+
+    h3,
+    h2,
+    h1 {
+        font-family: "Itim", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+    button {
+        font-family: "Merriweather", sans-serif;
+        font-weight: 500;
+        /* Light */
+        background-color: #623a88;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #9051d8;
+        border: 3px solid #8b00ad;
+        /* เพิ่มเส้นขอบสีเทาอ่อน */
+        box-shadow: 0 1px 3px rgba(67, 0, 143, 0.582);
+        /* เพิ่มเงาเล็กน้อย */
+    }
+
+    .container {
+        width: 60%;
+        margin: auto;
+        background: rgba(244, 230, 255, 0.911);
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+    }
+
+    body {
+        background: url(A%20Purple%20Wonder%20World.jpg);
+        background-repeat: no-repeat;
+        background-size: 1400px 1500px;
+    }
